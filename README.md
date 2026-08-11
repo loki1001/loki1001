@@ -2,6 +2,8 @@
 
 I'm a software engineer at Cisco working at the intersection of applied AI and backend/platform engineering. I build evidence-grounded agent workflows, LLM evaluation pipelines, distributed orchestration, and operational observability.
 
+**Open to:** Backend, AI platform, infrastructure, and forward-deployed engineering opportunities.
+
 ## Open-source and team contributions
 
 - [Couchbase JetBrains Plugin](https://github.com/Couchbase-Ecosystem/couchbase_jetbrains_plugin/pull/20) — contributed a merged Java/Swing dialog and runner for configuring, executing, and stopping Couchbase Pillowfight workloads in JetBrains IDEs.
