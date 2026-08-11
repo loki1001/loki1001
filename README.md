@@ -1,3 +1,5 @@
+![Lokaranjan Munta — Applied AI, backend, and platform engineering.](assets/profile-banner.jpg)
+
 # Hi, I'm Lokaranjan
 
 I'm a software engineer at Cisco working at the intersection of applied AI and backend/platform engineering. I build evidence-grounded agent workflows, LLM evaluation pipelines, distributed orchestration, and operational observability.
