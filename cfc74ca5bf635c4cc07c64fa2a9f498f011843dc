@@ -1,0 +1,856 @@
+{
+  "version": 2,
+  "schemaVersion": 2,
+  "source": "mantis",
+  "sourceVersion": "0.2.221",
+  "generatedAt": "2026-08-11T19:06:06.071Z",
+  "files": [
+    {
+      "file": "README.md",
+      "action": "edited",
+      "linesAffected": 11,
+      "linesAdded": 11,
+      "linesDeleted": 6,
+      "totalLines": 22,
+      "assistant": "codex"
+    }
+  ],
+  "hunks": [
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:1:README.md:codex-patch:all",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 3,
+      "oldLines": 1,
+      "newStart": 3,
+      "newLines": 1,
+      "linesAdded": 1,
+      "linesDeleted": 1,
+      "attribution": {
+        "bucket": "ai_only",
+        "contributors": [
+          {
+            "actor": "ai",
+            "tool": "codex",
+            "source": "codex-session.patch",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "ai"
+        ],
+        "aiInvolved": true,
+        "humanInvolved": false,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "codex_session",
+        "source": "codex-session.patch",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "e4cdc19740c6689c9dd9c2df156615d64689c3ef203f41713715e1b84f5adb3f"
+        ],
+        "deletedLineHashes": [
+          "4337e39f0a5f4c32393a29d812629b7826f92f88208248e44750fb1cc7299093"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 1,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 1,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "environment.codex-thread-env",
+        "codexSessionTouchedFile": true,
+        "codexSessionFreshForFile": true,
+        "codexSessionTouchedFileCount": 1,
+        "codexSessionPatchCoverage": true
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:2:README.md",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 5,
+      "oldLines": 1,
+      "newStart": 5,
+      "newLines": 1,
+      "linesAdded": 1,
+      "linesDeleted": 1,
+      "attribution": {
+        "bucket": "ai_only",
+        "contributors": [
+          {
+            "actor": "ai",
+            "tool": "codex",
+            "source": "environment.codex-thread-env",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "ai"
+        ],
+        "aiInvolved": true,
+        "humanInvolved": false,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "environment",
+        "source": "environment.codex-thread-env",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "3835bb2ff9b32319a3d24916be12d43fff029ed631fc71c84d89e7b93a1eeb39"
+        ],
+        "deletedLineHashes": [
+          "c2df45a77678c9727923024b0f23fbd832d16c19f7c106ca4c0568c7ba03dfc6"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 0,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 0,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "environment.codex-thread-env"
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:3:README.md:codex-patch:1",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 7,
+      "oldLines": 1,
+      "newStart": 7,
+      "newLines": 1,
+      "linesAdded": 1,
+      "linesDeleted": 1,
+      "attribution": {
+        "bucket": "ai_only",
+        "contributors": [
+          {
+            "actor": "ai",
+            "tool": "codex",
+            "source": "codex-session.patch",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "ai"
+        ],
+        "aiInvolved": true,
+        "humanInvolved": false,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "codex_session",
+        "source": "codex-session.patch",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "acaab6309f66cef3d268859218677d69bbb79ea5bff197fb7f2349c334194257",
+          "7ca6f01f1a54e5c9b0ebe5992ce6d8e364882d7f0e386e67d21acd4e4be5b4d7",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "48e50a6f8a133a01187c2acb6fc9c982171334c714fa7189341fadc189cc1a53",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "39caf8c885e56a72ed8fdd4046ec2929a87738272762e820526dec55ff4a9387",
+          "8a1d1a88f3883d1054c149bf9c0124508ce2d3815f984b4a709f7e7291f20e11",
+          "2d8abaed50db105cdabb0f61f1678a369483bccffc404d98cdf18738aef6fdac"
+        ],
+        "deletedLineHashes": [
+          "2440c97cc5b20bd56302ac7b42e90ebde529f9c7617340407721f6367962f06e",
+          "e6982700ed6b51bee046e1b1eb13accc1d7f033f683a2201c8c35c15602de36e",
+          "fdb565eaa57bc2a7b9b75571ef59e5ff62a3a2282895090369beb77b2989ba68"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 1,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 1,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "environment.codex-thread-env",
+        "codexSessionTouchedFile": true,
+        "codexSessionFreshForFile": true,
+        "codexSessionTouchedFileCount": 1,
+        "codexSessionPatchCoverage": true
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:3:README.md:fallback:2",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 8,
+      "oldLines": 1,
+      "newStart": 8,
+      "newLines": 1,
+      "linesAdded": 1,
+      "linesDeleted": 1,
+      "attribution": {
+        "bucket": "human_only",
+        "contributors": [
+          {
+            "actor": "human",
+            "tool": null,
+            "source": "mantis-managed-cli.manual-fallback",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "human"
+        ],
+        "aiInvolved": false,
+        "humanInvolved": true,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "manual_typing",
+        "source": "mantis-managed-cli.manual-fallback",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "acaab6309f66cef3d268859218677d69bbb79ea5bff197fb7f2349c334194257",
+          "7ca6f01f1a54e5c9b0ebe5992ce6d8e364882d7f0e386e67d21acd4e4be5b4d7",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "48e50a6f8a133a01187c2acb6fc9c982171334c714fa7189341fadc189cc1a53",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "39caf8c885e56a72ed8fdd4046ec2929a87738272762e820526dec55ff4a9387",
+          "8a1d1a88f3883d1054c149bf9c0124508ce2d3815f984b4a709f7e7291f20e11",
+          "2d8abaed50db105cdabb0f61f1678a369483bccffc404d98cdf18738aef6fdac"
+        ],
+        "deletedLineHashes": [
+          "2440c97cc5b20bd56302ac7b42e90ebde529f9c7617340407721f6367962f06e",
+          "e6982700ed6b51bee046e1b1eb13accc1d7f033f683a2201c8c35c15602de36e",
+          "fdb565eaa57bc2a7b9b75571ef59e5ff62a3a2282895090369beb77b2989ba68"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 0,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 0,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "mantis-managed-cli.manual-fallback",
+        "codexSessionPatchRemainder": true
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:3:README.md:fallback:3",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 9,
+      "oldLines": 1,
+      "newStart": 9,
+      "newLines": 1,
+      "linesAdded": 1,
+      "linesDeleted": 1,
+      "attribution": {
+        "bucket": "human_only",
+        "contributors": [
+          {
+            "actor": "human",
+            "tool": null,
+            "source": "mantis-managed-cli.manual-fallback",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "human"
+        ],
+        "aiInvolved": false,
+        "humanInvolved": true,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "manual_typing",
+        "source": "mantis-managed-cli.manual-fallback",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "acaab6309f66cef3d268859218677d69bbb79ea5bff197fb7f2349c334194257",
+          "7ca6f01f1a54e5c9b0ebe5992ce6d8e364882d7f0e386e67d21acd4e4be5b4d7",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "48e50a6f8a133a01187c2acb6fc9c982171334c714fa7189341fadc189cc1a53",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "39caf8c885e56a72ed8fdd4046ec2929a87738272762e820526dec55ff4a9387",
+          "8a1d1a88f3883d1054c149bf9c0124508ce2d3815f984b4a709f7e7291f20e11",
+          "2d8abaed50db105cdabb0f61f1678a369483bccffc404d98cdf18738aef6fdac"
+        ],
+        "deletedLineHashes": [
+          "2440c97cc5b20bd56302ac7b42e90ebde529f9c7617340407721f6367962f06e",
+          "e6982700ed6b51bee046e1b1eb13accc1d7f033f683a2201c8c35c15602de36e",
+          "fdb565eaa57bc2a7b9b75571ef59e5ff62a3a2282895090369beb77b2989ba68"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 0,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 0,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "mantis-managed-cli.manual-fallback",
+        "codexSessionPatchRemainder": true
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:3:README.md:fallback:4",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 0,
+      "oldLines": 0,
+      "newStart": 10,
+      "newLines": 1,
+      "linesAdded": 1,
+      "linesDeleted": 0,
+      "attribution": {
+        "bucket": "human_only",
+        "contributors": [
+          {
+            "actor": "human",
+            "tool": null,
+            "source": "mantis-managed-cli.manual-fallback",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "human"
+        ],
+        "aiInvolved": false,
+        "humanInvolved": true,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "manual_typing",
+        "source": "mantis-managed-cli.manual-fallback",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "acaab6309f66cef3d268859218677d69bbb79ea5bff197fb7f2349c334194257",
+          "7ca6f01f1a54e5c9b0ebe5992ce6d8e364882d7f0e386e67d21acd4e4be5b4d7",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "48e50a6f8a133a01187c2acb6fc9c982171334c714fa7189341fadc189cc1a53",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "39caf8c885e56a72ed8fdd4046ec2929a87738272762e820526dec55ff4a9387",
+          "8a1d1a88f3883d1054c149bf9c0124508ce2d3815f984b4a709f7e7291f20e11",
+          "2d8abaed50db105cdabb0f61f1678a369483bccffc404d98cdf18738aef6fdac"
+        ],
+        "deletedLineHashes": [
+          "2440c97cc5b20bd56302ac7b42e90ebde529f9c7617340407721f6367962f06e",
+          "e6982700ed6b51bee046e1b1eb13accc1d7f033f683a2201c8c35c15602de36e",
+          "fdb565eaa57bc2a7b9b75571ef59e5ff62a3a2282895090369beb77b2989ba68"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 0,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 0,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "mantis-managed-cli.manual-fallback",
+        "codexSessionPatchRemainder": true
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:3:README.md:fallback:5",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 0,
+      "oldLines": 0,
+      "newStart": 11,
+      "newLines": 1,
+      "linesAdded": 1,
+      "linesDeleted": 0,
+      "attribution": {
+        "bucket": "human_only",
+        "contributors": [
+          {
+            "actor": "human",
+            "tool": null,
+            "source": "mantis-managed-cli.manual-fallback",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "human"
+        ],
+        "aiInvolved": false,
+        "humanInvolved": true,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "manual_typing",
+        "source": "mantis-managed-cli.manual-fallback",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "acaab6309f66cef3d268859218677d69bbb79ea5bff197fb7f2349c334194257",
+          "7ca6f01f1a54e5c9b0ebe5992ce6d8e364882d7f0e386e67d21acd4e4be5b4d7",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "48e50a6f8a133a01187c2acb6fc9c982171334c714fa7189341fadc189cc1a53",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "39caf8c885e56a72ed8fdd4046ec2929a87738272762e820526dec55ff4a9387",
+          "8a1d1a88f3883d1054c149bf9c0124508ce2d3815f984b4a709f7e7291f20e11",
+          "2d8abaed50db105cdabb0f61f1678a369483bccffc404d98cdf18738aef6fdac"
+        ],
+        "deletedLineHashes": [
+          "2440c97cc5b20bd56302ac7b42e90ebde529f9c7617340407721f6367962f06e",
+          "e6982700ed6b51bee046e1b1eb13accc1d7f033f683a2201c8c35c15602de36e",
+          "fdb565eaa57bc2a7b9b75571ef59e5ff62a3a2282895090369beb77b2989ba68"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 0,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 0,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "mantis-managed-cli.manual-fallback",
+        "codexSessionPatchRemainder": true
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:3:README.md:fallback:6",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 0,
+      "oldLines": 0,
+      "newStart": 12,
+      "newLines": 1,
+      "linesAdded": 1,
+      "linesDeleted": 0,
+      "attribution": {
+        "bucket": "human_only",
+        "contributors": [
+          {
+            "actor": "human",
+            "tool": null,
+            "source": "mantis-managed-cli.manual-fallback",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "human"
+        ],
+        "aiInvolved": false,
+        "humanInvolved": true,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "manual_typing",
+        "source": "mantis-managed-cli.manual-fallback",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "acaab6309f66cef3d268859218677d69bbb79ea5bff197fb7f2349c334194257",
+          "7ca6f01f1a54e5c9b0ebe5992ce6d8e364882d7f0e386e67d21acd4e4be5b4d7",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "48e50a6f8a133a01187c2acb6fc9c982171334c714fa7189341fadc189cc1a53",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "39caf8c885e56a72ed8fdd4046ec2929a87738272762e820526dec55ff4a9387",
+          "8a1d1a88f3883d1054c149bf9c0124508ce2d3815f984b4a709f7e7291f20e11",
+          "2d8abaed50db105cdabb0f61f1678a369483bccffc404d98cdf18738aef6fdac"
+        ],
+        "deletedLineHashes": [
+          "2440c97cc5b20bd56302ac7b42e90ebde529f9c7617340407721f6367962f06e",
+          "e6982700ed6b51bee046e1b1eb13accc1d7f033f683a2201c8c35c15602de36e",
+          "fdb565eaa57bc2a7b9b75571ef59e5ff62a3a2282895090369beb77b2989ba68"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 0,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 0,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "mantis-managed-cli.manual-fallback",
+        "codexSessionPatchRemainder": true
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:3:README.md:fallback:7",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 0,
+      "oldLines": 0,
+      "newStart": 13,
+      "newLines": 1,
+      "linesAdded": 1,
+      "linesDeleted": 0,
+      "attribution": {
+        "bucket": "human_only",
+        "contributors": [
+          {
+            "actor": "human",
+            "tool": null,
+            "source": "mantis-managed-cli.manual-fallback",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "human"
+        ],
+        "aiInvolved": false,
+        "humanInvolved": true,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "manual_typing",
+        "source": "mantis-managed-cli.manual-fallback",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "acaab6309f66cef3d268859218677d69bbb79ea5bff197fb7f2349c334194257",
+          "7ca6f01f1a54e5c9b0ebe5992ce6d8e364882d7f0e386e67d21acd4e4be5b4d7",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "48e50a6f8a133a01187c2acb6fc9c982171334c714fa7189341fadc189cc1a53",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "39caf8c885e56a72ed8fdd4046ec2929a87738272762e820526dec55ff4a9387",
+          "8a1d1a88f3883d1054c149bf9c0124508ce2d3815f984b4a709f7e7291f20e11",
+          "2d8abaed50db105cdabb0f61f1678a369483bccffc404d98cdf18738aef6fdac"
+        ],
+        "deletedLineHashes": [
+          "2440c97cc5b20bd56302ac7b42e90ebde529f9c7617340407721f6367962f06e",
+          "e6982700ed6b51bee046e1b1eb13accc1d7f033f683a2201c8c35c15602de36e",
+          "fdb565eaa57bc2a7b9b75571ef59e5ff62a3a2282895090369beb77b2989ba68"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 0,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 0,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "mantis-managed-cli.manual-fallback",
+        "codexSessionPatchRemainder": true
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:3:README.md:codex-patch:8",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 0,
+      "oldLines": 0,
+      "newStart": 14,
+      "newLines": 1,
+      "linesAdded": 1,
+      "linesDeleted": 0,
+      "attribution": {
+        "bucket": "ai_only",
+        "contributors": [
+          {
+            "actor": "ai",
+            "tool": "codex",
+            "source": "codex-session.patch",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "ai"
+        ],
+        "aiInvolved": true,
+        "humanInvolved": false,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "codex_session",
+        "source": "codex-session.patch",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "acaab6309f66cef3d268859218677d69bbb79ea5bff197fb7f2349c334194257",
+          "7ca6f01f1a54e5c9b0ebe5992ce6d8e364882d7f0e386e67d21acd4e4be5b4d7",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "48e50a6f8a133a01187c2acb6fc9c982171334c714fa7189341fadc189cc1a53",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "39caf8c885e56a72ed8fdd4046ec2929a87738272762e820526dec55ff4a9387",
+          "8a1d1a88f3883d1054c149bf9c0124508ce2d3815f984b4a709f7e7291f20e11",
+          "2d8abaed50db105cdabb0f61f1678a369483bccffc404d98cdf18738aef6fdac"
+        ],
+        "deletedLineHashes": [
+          "2440c97cc5b20bd56302ac7b42e90ebde529f9c7617340407721f6367962f06e",
+          "e6982700ed6b51bee046e1b1eb13accc1d7f033f683a2201c8c35c15602de36e",
+          "fdb565eaa57bc2a7b9b75571ef59e5ff62a3a2282895090369beb77b2989ba68"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 1,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 1,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "environment.codex-thread-env",
+        "codexSessionTouchedFile": true,
+        "codexSessionFreshForFile": true,
+        "codexSessionTouchedFileCount": 1,
+        "codexSessionPatchCoverage": true
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:4:README.md:codex-patch:all",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 13,
+      "oldLines": 1,
+      "newStart": 18,
+      "newLines": 1,
+      "linesAdded": 1,
+      "linesDeleted": 1,
+      "attribution": {
+        "bucket": "ai_only",
+        "contributors": [
+          {
+            "actor": "ai",
+            "tool": "codex",
+            "source": "codex-session.patch",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "ai"
+        ],
+        "aiInvolved": true,
+        "humanInvolved": false,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "codex_session",
+        "source": "codex-session.patch",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "dd253353d6afda37e0af83cd93ed5196df024c6d2b193e86cad47e13d8a88d29"
+        ],
+        "deletedLineHashes": [
+          "0411888c10a1117ab8ba8efe3184d529fafbecedbd9189d7484614a36f02bd8d"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 1,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 1,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "environment.codex-thread-env",
+        "codexSessionTouchedFile": true,
+        "codexSessionFreshForFile": true,
+        "codexSessionTouchedFileCount": 1,
+        "codexSessionPatchCoverage": true
+      }
+    }
+  ],
+  "summary": {
+    "totalHunks": 11,
+    "buckets": {
+      "ai_only": 5,
+      "human_only": 6,
+      "tool_only": 0,
+      "mixed_ai_human": 0,
+      "mixed_ai_tool": 0,
+      "mixed_human_tool": 0,
+      "mixed_ai_human_tool": 0,
+      "unknown": 0
+    },
+    "aiInvolved": 5,
+    "humanInvolved": 6,
+    "toolInvolved": 0,
+    "unknownInvolved": 0,
+    "linesAdded": 11,
+    "linesDeleted": 6
+  },
+  "reconciliation": {
+    "schemaVersion": 2,
+    "strategy": "staged-diff-hunk-overlap-v1",
+    "stagedHunkCount": 4,
+    "matchedHunkCount": 4,
+    "unknownHunkCount": 0,
+    "files": [
+      "README.md"
+    ],
+    "lineSummaryByBucket": {
+      "ai_only": {
+        "hunks": 5,
+        "linesAdded": 5,
+        "linesDeleted": 4
+      },
+      "human_only": {
+        "hunks": 6,
+        "linesAdded": 6,
+        "linesDeleted": 2
+      },
+      "tool_only": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "mixed_ai_human": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "mixed_ai_tool": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "mixed_human_tool": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "mixed_ai_human_tool": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "unknown": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      }
+    }
+  }
+}
