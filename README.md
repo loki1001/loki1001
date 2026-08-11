@@ -1,16 +1,17 @@
-## Hi there 👋
+# Hi, I'm Lokaranjan
 
-<!--
-**loki1001/loki1001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a software engineer at Cisco working at the intersection of applied AI and backend/platform engineering. I build evidence-grounded agent workflows, LLM evaluation pipelines, distributed orchestration, and production observability.
 
-Here are some ideas to get you started:
+## Selected work
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [Couchbase JetBrains Plugin](https://github.com/Couchbase-Ecosystem/couchbase_jetbrains_plugin/pull/20) — contributed a merged Java feature for configuring and executing Couchbase Pillowfight workloads from JetBrains IDEs.
+- [ChessNeuralNetwork](https://github.com/loki1001/ChessNeuralNetwork) — combined minimax and alpha-beta search with a TensorFlow CNN evaluator, dataset generation, and an interactive chess interface.
+- [Personal Scheduling System](https://github.com/JustChung/CS3560-PSS) — implemented scheduling and JSON persistence through multiple merged TypeScript and React contributions.
+
+## Toolbox
+
+Python · Java · TypeScript · Kubernetes · Temporal · AWS · PostgreSQL · Grafana
+
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/lokaranjanm/)
