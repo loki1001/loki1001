@@ -1,0 +1,184 @@
+{
+  "version": 2,
+  "schemaVersion": 2,
+  "source": "mantis",
+  "sourceVersion": "0.2.221",
+  "generatedAt": "2026-08-12T09:15:48.718Z",
+  "files": [
+    {
+      "file": "README.md",
+      "action": "edited",
+      "linesAffected": 20,
+      "linesAdded": 20,
+      "linesDeleted": 14,
+      "totalLines": 50,
+      "assistant": "codex"
+    }
+  ],
+  "hunks": [
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:1:README.md",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 18,
+      "oldLines": 14,
+      "newStart": 18,
+      "newLines": 20,
+      "linesAdded": 20,
+      "linesDeleted": 14,
+      "attribution": {
+        "bucket": "ai_only",
+        "contributors": [
+          {
+            "actor": "ai",
+            "tool": "codex",
+            "source": "environment.codex-thread-env",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "ai"
+        ],
+        "aiInvolved": true,
+        "humanInvolved": false,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "environment",
+        "source": "environment.codex-thread-env",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "a1c1daa1a0cd54b239b720d34a1f08490f7c514840c8a07ff5f4c97f3f5f83e9",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "5c9658c4ef27cb4bd92b7b520a2d788601bc833eedaccc380d9c3048f526d456",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "9e09a52f39973f7296e68966aa4c29b73e3a4f6170049ffa38ef814b34d04b89",
+          "6f2ae00980e0f6a91fab469ce1b48cdb5393d489edf05a92bce488ed630b3347",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "a291a0544290d77e5c07924dd41b470553a5434630fb9b6f935b509946aa59e1",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "83fb2ee793067dcd0fef4af159e19303349e9ccf25c12e3c27ab20c5a05d0f08",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "7d1d39d97bcd2eec0ffc67359ac228acc63bc20cd553faefe3e48e2753ccf8ad",
+          "34e49e8f07048573c1ed6d35fb771b2a28460988b6bfb90cd4b3171f344a0859",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "f571ff8d7cd7f130fa160980323bc902f7c5e27df9efcaf7ed0a6c2815af641a",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "5d4ac11d8086d9c1963a87071bbea1f2f84953fa1f48067ebf92d0f5353fc98c",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "63adeaaebe1fa615638423b3b600181c9b31d0777e44dfaa16ae57751450ede6",
+          "8ce19ce2718a543a94e3c509ef561ebc60f56d85d2be7274da3d4d3acfc6aca5"
+        ],
+        "deletedLineHashes": [
+          "92ad031534baf526429b739da7d4b03a62ee8f4f3260d919bdb85c471b5d3244",
+          "ea8faa78b706c57d1dbeb181bdaf0729959a3bb369d0523c58c88c12e36d15fa",
+          "5fb126607ae7e7a5eabf8119f87326fbce6fc25b02ddbf21a81178e804b71afa",
+          "64be14eb24a840419516ad7d730bb67ae6afe38727a3f67eb6f1e98843878914",
+          "2bfe7e5a42f1421adaecc783b7d78bbd55941b17d018a7319682ca2fde997037",
+          "ea8faa78b706c57d1dbeb181bdaf0729959a3bb369d0523c58c88c12e36d15fa",
+          "2c3a7d77a4868f949c840fa9dfadeea03f9632615d825923501083824ec27540",
+          "22c6206d0644363f11f8d698de08476f90e4fda9e0a3d3dfc893ee48aec62ab7",
+          "2bfe7e5a42f1421adaecc783b7d78bbd55941b17d018a7319682ca2fde997037",
+          "ea8faa78b706c57d1dbeb181bdaf0729959a3bb369d0523c58c88c12e36d15fa",
+          "3642d1c4c314e826002a956a29620810d3536b75e27ae1cbc8619a666574cd8a",
+          "a342499e7afb6f69826f2f4d7042f4b29e3941e6943beace41faa53624b30951",
+          "2bfe7e5a42f1421adaecc783b7d78bbd55941b17d018a7319682ca2fde997037",
+          "1fe76d6f9e6bcb754dd822ef01eb6e76013d2029d841d52b6a52c7b88a8c7593"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 0,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 0,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "environment.codex-thread-env"
+      }
+    }
+  ],
+  "summary": {
+    "totalHunks": 1,
+    "buckets": {
+      "ai_only": 1,
+      "human_only": 0,
+      "tool_only": 0,
+      "mixed_ai_human": 0,
+      "mixed_ai_tool": 0,
+      "mixed_human_tool": 0,
+      "mixed_ai_human_tool": 0,
+      "unknown": 0
+    },
+    "aiInvolved": 1,
+    "humanInvolved": 0,
+    "toolInvolved": 0,
+    "unknownInvolved": 0,
+    "linesAdded": 20,
+    "linesDeleted": 14
+  },
+  "reconciliation": {
+    "schemaVersion": 2,
+    "strategy": "staged-diff-hunk-overlap-v1",
+    "stagedHunkCount": 1,
+    "matchedHunkCount": 0,
+    "unknownHunkCount": 0,
+    "files": [
+      "README.md"
+    ],
+    "lineSummaryByBucket": {
+      "ai_only": {
+        "hunks": 1,
+        "linesAdded": 20,
+        "linesDeleted": 14
+      },
+      "human_only": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "tool_only": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "mixed_ai_human": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "mixed_ai_tool": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "mixed_human_tool": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "mixed_ai_human_tool": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "unknown": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      }
+    }
+  }
+}
