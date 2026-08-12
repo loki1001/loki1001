@@ -15,20 +15,26 @@ Software engineer at Cisco building AI platform systems across model serving, re
 
 ## Public work & contributions
 
-<table>
-  <tr>
-    <td width="31%"><strong>🔌 Couchbase JetBrains Plugin</strong><br><sub>OPEN SOURCE · JAVA/SWING</sub></td>
-    <td>Built a dialog and runner for configuring, executing, and stopping Couchbase Pillowfight workloads from JetBrains IDEs.<br><strong><a href="https://github.com/Couchbase-Ecosystem/couchbase_jetbrains_plugin/pull/20">View merged PR #20 →</a></strong></td>
-  </tr>
-  <tr>
-    <td><strong>🗺️ Along The Way</strong><br><sub>TEAM CONTRIBUTION · REACT/TYPESCRIPT</sub></td>
-    <td>Implemented route-aware discovery, detour filtering, Google Maps and Places integration, Gemini assistance, and Firebase-backed persistence.<br><strong><a href="https://github.com/JustChung/along-the-way/pulls?q=is%3Apr+author%3Aloki1001+is%3Amerged">Explore five merged PRs →</a></strong></td>
-  </tr>
-  <tr>
-    <td><strong>🥘 MealMate</strong><br><sub>APPLIED AI · DJANGO</sub></td>
-    <td>Built pantry-aware recipe generation, authenticated recipe storage, and recipe-scoped cooking assistance.<br><strong><a href="https://github.com/loki1001/MealMate">Explore the project →</a></strong></td>
-  </tr>
-</table>
+### 🔌 Couchbase JetBrains Plugin
+
+<sub>OPEN SOURCE · JAVA/SWING</sub>
+
+Built a dialog and runner for configuring, executing, and stopping Couchbase Pillowfight workloads from JetBrains IDEs.<br>
+**[View merged PR #20 →](https://github.com/Couchbase-Ecosystem/couchbase_jetbrains_plugin/pull/20)**
+
+### 🗺️ Along The Way
+
+<sub>TEAM CONTRIBUTION · REACT/TYPESCRIPT</sub>
+
+Implemented route-aware discovery and detour filtering with Google Maps/Places, plus Firebase persistence for routes and Gemini-assisted chat.<br>
+**[Explore five merged PRs →](https://github.com/JustChung/along-the-way/pulls?q=is%3Apr+author%3Aloki1001+is%3Amerged)**
+
+### 🥘 MealMate
+
+<sub>APPLIED AI · DJANGO</sub>
+
+Built pantry-aware recipe generation, authenticated recipe storage, and recipe-scoped cooking assistance.<br>
+**[Explore the project →](https://github.com/loki1001/MealMate)**
 
 **More experiments:** [QuantumGameHub](https://github.com/loki1001/QuantumGameHub) — four simulator-backed Qiskit demos exploring interference, entanglement, Bernstein–Vazirani, and measurement-driven art.
 
