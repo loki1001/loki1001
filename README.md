@@ -1,6 +1,14 @@
-![Lokaranjan Munta — Applied AI, backend, and platform engineering.](assets/profile-banner.jpg)
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-card-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/profile-card-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-card-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-card-light.svg">
+  <img alt="Applied AI, backend, and platform engineering — grounded agents, evaluation systems, and cloud-native tooling." src="assets/profile-card-light.svg" width="100%">
+</picture>
 
-# Hi, I'm Lokaranjan
+# Lokaranjan Munta
+
+**Applied AI · Backend · Platform Engineering**
 
 I'm a software engineer at Cisco working at the intersection of applied AI and backend/platform engineering. I build evidence-grounded agent workflows, LLM evaluation pipelines, distributed orchestration, and operational observability.
 
