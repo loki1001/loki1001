@@ -21,12 +21,17 @@ two responsive `profile-system*.svg` assets; no runtime CDN is used.
 
 ## Original generic line icons
 
-The Java cup, cloud infrastructure, and model-integration symbols were drawn
+The Java cup, cloud infrastructure, model-runtime, embedding, and routing symbols were drawn
 specifically for this prototype. They are capability illustrations, not vendor
 logos. Their adjacent text labels identify the technology being described.
 
-- `java-generic.svg`
-- `aws-generic.svg`
-- `openai-generic.svg`
+Embedded symbol IDs:
 
-No Cisco marks or private-system identifiers are embedded in these assets.
+- `icon-java`
+- `icon-aws`
+- `icon-runtime`
+- `icon-embedding`
+- `icon-router`
+
+The word "Cisco" appears only in the employer line; no Cisco logo or
+private-system identifiers are embedded in these assets.
