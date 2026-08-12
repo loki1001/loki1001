@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc" lang="en">
-  <title id="title">Lokaranjan Munta — AI systems and backend platform engineer</title>
-  <desc id="desc">A modern bento layout showing work in grounded agents, LLM evaluation, durable orchestration, and observability.</desc>
+  <title id="title">Lokaranjan Munta — AI platform and applied AI systems engineer</title>
+  <desc id="desc">A modern bento layout showing work across model serving, grounded agents, evaluation and replay, and cloud AI platforms.</desc>
   <defs>
     <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#080d1b"/>
@@ -44,11 +44,17 @@
     <path d="M7.2 18.5H17a4 4 0 0 0 .5-8A5.8 5.8 0 0 0 6.4 9.1 4.8 4.8 0 0 0 7.2 18.5Z"/>
     <path d="m9 14 3-3 3 3M12 11v7"/>
   </g></symbol>
-    <symbol id="icon-openai" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="2.4"/>
-    <circle cx="12" cy="3.6" r="1.5"/><circle cx="19.3" cy="7.8" r="1.5"/><circle cx="19.3" cy="16.2" r="1.5"/>
-    <circle cx="12" cy="20.4" r="1.5"/><circle cx="4.7" cy="16.2" r="1.5"/><circle cx="4.7" cy="7.8" r="1.5"/>
-    <path d="m12 5.1 0 4.5m6-1-4 2.3m4 4.5-4-2.3m-2 5.8v-4.5m-6-1 4-2.3m-4-4.5 4 2.3"/>
+    <symbol id="icon-runtime" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="4" width="18" height="6" rx="2"/><rect x="3" y="14" width="18" height="6" rx="2"/>
+    <path d="M7 7h.01M7 17h.01M11 7h6M11 17h6M18 1v3M16.5 2.5h3"/>
+  </g></symbol>
+    <symbol id="icon-embedding" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="5" cy="12" r="2.5"/><circle cx="12" cy="5" r="2.5"/><circle cx="19" cy="12" r="2.5"/><circle cx="12" cy="19" r="2.5"/>
+    <path d="m7 10 3-3m4 0 3 3m0 4-3 3m-4 0-3-3M8 12h8"/>
+  </g></symbol>
+    <symbol id="icon-router" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 12h6m0 0 4-6h8m-12 6 4 6h8M18 3l3 3-3 3M18 15l3 3-3 3"/>
+    <circle cx="9" cy="12" r="2"/>
   </g></symbol>
   </defs>
 
@@ -68,53 +74,52 @@
   <circle cx="365" cy="73" r="4" fill="#5eead4"/>
   <path d="M341 72h-23m70 1h14m-37-25V35m0 62v16" stroke="#bfdbfe" stroke-opacity="0.35" stroke-linecap="round"/>
 
-  <rect x="52" y="52" width="184" height="27" rx="13.5" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.14"/>
+  <rect x="52" y="52" width="213" height="27" rx="13.5" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.14"/>
   <circle cx="69" cy="65.5" r="4" fill="#5eead4"/>
-  <text x="81" y="70" fill="#cfe7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.25">AI SYSTEMS · PLATFORM</text>
+  <text x="81" y="70" fill="#cfe7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" font-weight="700" letter-spacing="1.15">AI PLATFORM · APPLIED AI</text>
   <text x="52" y="127" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">Lokaranjan Munta</text>
   <text x="52" y="156" fill="#a8c7ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">Software Engineer @ Cisco</text>
   <path d="M52 181h56" stroke="#5eead4" stroke-width="3" stroke-linecap="round"/>
   <text x="52" y="212" fill="#dbeafe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16.5">
-    <tspan x="52" dy="0">Building AI systems across evidence,</tspan>
-    <tspan x="52" dy="23">evaluation, durable orchestration,</tspan>
-    <tspan x="52" dy="23">and operational observability.</tspan>
+    <tspan x="52" dy="0">Building AI systems across model serving,</tspan>
+    <tspan x="52" dy="23">grounded retrieval, evaluation and replay,</tspan>
+    <tspan x="52" dy="23">and cloud-native operations.</tspan>
   </text>
-  <text x="52" y="298" fill="#8fb5df" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" font-weight="700" letter-spacing="1.15">APPLIED AI · BACKEND · INFRASTRUCTURE</text>
+  <text x="52" y="298" fill="#8fb5df" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" font-weight="700" letter-spacing="1.15">MODELS · AGENTS · EVALUATION · PLATFORM</text>
 
-  <!-- Grounded agents -->
+  <!-- Model serving and embeddings -->
   <g filter="url(#shadow)">
     <rect x="436" y="28" width="350" height="142" rx="20" fill="#111a2f" fill-opacity="0.94" stroke="#273653"/>
   </g>
   <rect x="456" y="48" width="44" height="44" rx="13" fill="#0d3040" stroke="#155e75"/>
   <g transform="translate(466 58)" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M12 0 23 5v8c0 6-4.5 10.5-11 13C5.5 23.5 1 19 1 13V5L12 0Z"/>
-    <path d="m7 13 3 3 7-7"/>
+    <rect x="1" y="2" width="22" height="8" rx="2"/><rect x="1" y="16" width="22" height="8" rx="2"/>
+    <path d="M6 6h.01M6 20h.01M11 6h7M11 20h7M19 0v4M17 2h4"/>
   </g>
-  <text x="516" y="66" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Grounded Agents</text>
-  <text x="516" y="85" fill="#22d3ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.1">EVIDENCE FIRST</text>
+  <text x="516" y="66" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Model Serving &amp; Embeddings</text>
+  <text x="516" y="85" fill="#22d3ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.1">INFERENCE + EMBEDDINGS</text>
   <text x="456" y="117" fill="#aebdd1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">
-    <tspan x="456" dy="0">Developing code-aware source inspection</tspan>
-    <tspan x="456" dy="22">and evidence guardrails.</tspan>
+    <tspan x="456" dy="0">GPU-backed vLLM serving and Qwen3</tspan>
+    <tspan x="456" dy="22">embedding inference.</tspan>
   </text>
 
-  <!-- LLM evaluation -->
+  <!-- Grounded agent systems -->
   <g filter="url(#shadow)">
     <rect x="804" y="28" width="368" height="142" rx="20" fill="#111a2f" fill-opacity="0.94" stroke="#362d54"/>
   </g>
   <rect x="824" y="48" width="44" height="44" rx="13" fill="#291a48" stroke="#5b3a8f"/>
   <g transform="translate(834 58)" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="11"/>
-    <circle cx="12" cy="12" r="5"/>
-    <path d="m16 8 6-6m-1 0h-5m5 0v5"/>
+    <path d="M12 0 23 5v8c0 6-4.5 10.5-11 13C5.5 23.5 1 19 1 13V5L12 0Z"/>
+    <path d="m7 13 3 3 7-7"/>
   </g>
-  <text x="884" y="66" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">LLM Evaluation</text>
-  <text x="884" y="85" fill="#a78bfa" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.1">MEASURED QUALITY</text>
+  <text x="884" y="66" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Grounded Agent Systems</text>
+  <text x="884" y="85" fill="#a78bfa" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.1">SOURCE + RETRIEVAL</text>
   <text x="824" y="117" fill="#aebdd1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">
-    <tspan x="824" dy="0">Ground truth, deterministic scoring,</tspan>
-    <tspan x="824" dy="22">and LLM-as-a-judge validation.</tspan>
+    <tspan x="824" dy="0">MCP/RAG retrieval, source inspection,</tspan>
+    <tspan x="824" dy="22">and evidence guardrails.</tspan>
   </text>
 
-  <!-- Durable orchestration -->
+  <!-- Evaluation and replay -->
   <g filter="url(#shadow)">
     <rect x="436" y="186" width="350" height="142" rx="20" fill="#111a2f" fill-opacity="0.94" stroke="#293b63"/>
   </g>
@@ -123,14 +128,14 @@
     <circle cx="4" cy="4" r="3"/><circle cx="20" cy="12" r="3"/><circle cx="4" cy="20" r="3"/>
     <path d="M7 4h5a8 8 0 0 1 8 8M7 20h5a8 8 0 0 0 8-8"/>
   </g>
-  <text x="516" y="224" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Durable Orchestration</text>
-  <text x="516" y="243" fill="#60a5fa" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.1">REPLAYABLE EXECUTION</text>
+  <text x="516" y="224" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Evaluation &amp; Replay</text>
+  <text x="516" y="243" fill="#60a5fa" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.1">QUALITY UNDER CHANGE</text>
   <text x="456" y="275" fill="#aebdd1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">
-    <tspan x="456" dy="0">Temporal workflows, durable state,</tspan>
-    <tspan x="456" dy="22">and evaluation replay.</tspan>
+    <tspan x="456" dy="0">Ground truth, deterministic scoring,</tspan>
+    <tspan x="456" dy="22">LLM judges, and Temporal replay.</tspan>
   </text>
 
-  <!-- Observability -->
+  <!-- Cloud AI platform -->
   <g filter="url(#shadow)">
     <rect x="804" y="186" width="368" height="142" rx="20" fill="#111a2f" fill-opacity="0.94" stroke="#24473f"/>
   </g>
@@ -140,29 +145,29 @@
     <path d="m5 16 5-6 5 3 7-9"/>
     <circle cx="5" cy="16" r="1.5" fill="#34d399"/><circle cx="10" cy="10" r="1.5" fill="#34d399"/><circle cx="15" cy="13" r="1.5" fill="#34d399"/><circle cx="22" cy="4" r="1.5" fill="#34d399"/>
   </g>
-  <text x="884" y="224" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Observability</text>
-  <text x="884" y="243" fill="#34d399" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.1">OPERATIONAL FEEDBACK</text>
+  <text x="884" y="224" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Cloud AI Platform</text>
+  <text x="884" y="243" fill="#34d399" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.1">CLOUD-NATIVE OPERATIONS</text>
   <text x="824" y="275" fill="#aebdd1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">
-    <tspan x="824" dy="0">Grafana dashboards and CI-integrated</tspan>
-    <tspan x="824" dy="22">regression tests for operational feedback.</tspan>
+    <tspan x="824" dy="0">Kubernetes/AWS delivery, Grafana,</tspan>
+    <tspan x="824" dy="22">and CI-integrated regression testing.</tspan>
   </text>
 
   <!-- Curated technology rail -->
   <rect x="28" y="346" width="1144" height="86" rx="20" fill="url(#rail)" stroke="#273753"/>
   <path d="M341 358v62M684 358v62" stroke="#31415D" stroke-opacity="0.9"/>
   <g fill="#8FA1B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14.5" font-weight="800" letter-spacing="1.25">
-    <text x="50" y="369">AI &amp; MODELS</text>
-    <text x="370" y="369">BACKEND &amp; DATA</text>
-    <text x="714" y="369">PLATFORM &amp; DELIVERY</text>
+    <text x="50" y="369">MODELS &amp; INFERENCE</text>
+    <text x="370" y="369">AGENTS &amp; ORCHESTRATION</text>
+    <text x="714" y="369">PLATFORM &amp; RELIABILITY</text>
   </g>
-    <g transform="translate(50 381)" color="#75B4E3"><rect width="30" height="30" rx="8" fill="#162D45" stroke="#28516F"/><use href="#icon-python" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Python</text></g>
-    <g transform="translate(140 381)" color="#5EEAD4"><rect width="30" height="30" rx="8" fill="#123832" stroke="#246A5D"/><use href="#icon-mcp" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">MCP</text></g>
-    <g transform="translate(216 381)" color="#C4B5FD"><rect width="30" height="30" rx="8" fill="#30234A" stroke="#584080"/><use href="#icon-openai" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">OpenAI API</text></g>
-    <g transform="translate(370 381)" color="#FB923C"><rect width="30" height="30" rx="8" fill="#422515" stroke="#73401F"/><use href="#icon-java" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Java</text></g>
-    <g transform="translate(447 381)" color="#A5B4FC"><rect width="30" height="30" rx="8" fill="#24294D" stroke="#444C83"/><use href="#icon-temporal" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Temporal</text></g>
-    <g transform="translate(557 381)" color="#7DB6DD"><rect width="30" height="30" rx="8" fill="#183047" stroke="#2C5879"/><use href="#icon-postgresql" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Postgres</text></g>
+    <g transform="translate(50 381)" color="#75B4E3"><rect width="30" height="30" rx="8" fill="#162D45" stroke="#28516F"/><use href="#icon-runtime" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">vLLM</text></g>
+    <g transform="translate(130 381)" color="#5EEAD4"><rect width="30" height="30" rx="8" fill="#123832" stroke="#246A5D"/><use href="#icon-embedding" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Qwen3</text></g>
+    <g transform="translate(222 381)" color="#C4B5FD"><rect width="30" height="30" rx="8" fill="#30234A" stroke="#584080"/><use href="#icon-router" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">LiteLLM</text></g>
+    <g transform="translate(370 381)" color="#75B4E3"><rect width="30" height="30" rx="8" fill="#162D45" stroke="#28516F"/><use href="#icon-python" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Python</text></g>
+    <g transform="translate(465 381)" color="#5EEAD4"><rect width="30" height="30" rx="8" fill="#123832" stroke="#246A5D"/><use href="#icon-mcp" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">MCP</text></g>
+    <g transform="translate(540 381)" color="#A5B4FC"><rect width="30" height="30" rx="8" fill="#24294D" stroke="#444C83"/><use href="#icon-temporal" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Temporal</text></g>
     <g transform="translate(714 381)" color="#7AA2FF"><rect width="30" height="30" rx="8" fill="#172B51" stroke="#31568C"/><use href="#icon-kubernetes" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Kubernetes</text></g>
-    <g transform="translate(825 381)" color="#FBBF6A"><rect width="30" height="30" rx="8" fill="#3E2C13" stroke="#705020"/><use href="#icon-aws" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">AWS</text></g>
-    <g transform="translate(895 381)" color="#FB923C"><rect width="30" height="30" rx="8" fill="#422617" stroke="#714227"/><use href="#icon-grafana" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Grafana</text></g>
-    <g transform="translate(990 381)" color="#7DB6FF"><rect width="30" height="30" rx="8" fill="#18304E" stroke="#2D5789"/><use href="#icon-actions" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">GH Actions</text></g>
+    <g transform="translate(840 381)" color="#FBBF6A"><rect width="30" height="30" rx="8" fill="#3E2C13" stroke="#705020"/><use href="#icon-aws" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">AWS</text></g>
+    <g transform="translate(914 381)" color="#7DB6DD"><rect width="30" height="30" rx="8" fill="#183047" stroke="#2C5879"/><use href="#icon-postgresql" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Postgres</text></g>
+    <g transform="translate(1019 381)" color="#FB923C"><rect width="30" height="30" rx="8" fill="#422617" stroke="#714227"/><use href="#icon-grafana" x="5.5" y="5.5" width="19" height="19"/><text x="38" y="20" fill="#D9E5F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Grafana</text></g>
 </svg>
