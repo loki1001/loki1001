@@ -1,9 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-system-mobile-dark.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/profile-system-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-system-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-system-light.svg">
-  <img alt="Visual summary of Lokaranjan Munta's grounded AI, evaluation, orchestration, and observability work; details follow." src="assets/profile-system-light.svg">
+  <source media="(max-width: 600px)" srcset="assets/profile-system-mobile.svg">
+  <img alt="Visual summary of Lokaranjan Munta's grounded AI, evaluation, orchestration, and observability work; details follow." src="assets/profile-system.svg">
 </picture>
 
 Software engineer at Cisco building evidence-grounded agent workflows, LLM evaluation pipelines, distributed orchestration, and operational observability.
