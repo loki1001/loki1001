@@ -1,33 +1,30 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-card-mobile-dark.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/profile-card-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-card-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-card-light.svg">
-  <img alt="Applied AI, backend, and platform engineering — grounded agents, evaluation systems, and cloud-native tooling." src="assets/profile-card-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-hero-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/profile-hero-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-hero-light.svg">
+  <img alt="Lokaranjan Munta — applied AI systems and backend/platform engineering." src="assets/profile-hero-light.svg" width="100%">
 </picture>
 
-# Lokaranjan Munta
+Software engineer at Cisco building evidence-grounded agent workflows, LLM evaluation pipelines, distributed orchestration, and operational observability.
 
-**Applied AI · Backend · Platform Engineering**
+**Open to:** Backend · Applied AI / AI Platform · Infrastructure · Forward-Deployed Engineering
 
-I'm a software engineer at Cisco working at the intersection of applied AI and backend/platform engineering. I build evidence-grounded agent workflows, LLM evaluation pipelines, distributed orchestration, and operational observability.
+## Public contributions
 
-**Open to:** Backend, AI platform, infrastructure, and forward-deployed engineering opportunities.
-
-## Open-source and team contributions
-
-- [Couchbase JetBrains Plugin](https://github.com/Couchbase-Ecosystem/couchbase_jetbrains_plugin/pull/20) — contributed a merged Java/Swing dialog and runner for configuring, executing, and stopping Couchbase Pillowfight workloads in JetBrains IDEs.
-- [Along The Way](https://github.com/JustChung/along-the-way) — contributed React/TypeScript features for route-aware restaurant discovery, detour filtering, Google Maps and Places integration, Gemini assistance, and Firebase-backed route and chat persistence across [five merged pull requests](https://github.com/JustChung/along-the-way/pulls?q=is%3Apr+author%3Aloki1001+is%3Amerged).
+- **[Couchbase JetBrains Plugin — merged PR](https://github.com/Couchbase-Ecosystem/couchbase_jetbrains_plugin/pull/20)** — contributed a Java/Swing dialog and runner for configuring, executing, and stopping Couchbase Pillowfight workloads in JetBrains IDEs.
+- **[Along The Way — five merged PRs](https://github.com/JustChung/along-the-way/pulls?q=is%3Apr+author%3Aloki1001+is%3Amerged)** — implemented React/TypeScript features for route-aware restaurant discovery, detour filtering, Google Maps and Places integration, Gemini assistance, and Firebase-backed route and chat persistence.
 
 ## Selected projects
 
-- [MealMate](https://github.com/loki1001/MealMate) — built a Django/OpenAI application for pantry-aware recipe generation, dietary and serving customization, authenticated recipe storage, and recipe-scoped cooking assistance.
-- [ChessNeuralNetwork](https://github.com/loki1001/ChessNeuralNetwork) — built a playable chess application combining minimax with alpha-beta pruning, a TensorFlow CNN position evaluator, Stockfish-derived training data, and a Tkinter interface.
-- [QuantumGameHub](https://github.com/loki1001/QuantumGameHub) — created four simulator-backed Qiskit demos exploring superposition and measurement, quantum interference, entanglement, Bernstein-Vazirani, and measurement-driven art.
+- **[MealMate](https://github.com/loki1001/MealMate)** — Django/OpenAI application for pantry-aware recipe generation, authenticated recipe storage, and recipe-scoped cooking assistance.
+- **[QuantumGameHub](https://github.com/loki1001/QuantumGameHub)** — four simulator-backed Qiskit demos exploring interference, entanglement, Bernstein–Vazirani, and measurement-driven art.
 
-## Toolbox
+## Technical focus
 
-Python · Java · TypeScript · Django · OpenAI API · TensorFlow/Keras · Model Context Protocol (MCP) · Kubernetes · Temporal · AWS · PostgreSQL · Grafana · GitHub Actions
+- **AI systems:** Python · OpenAI API · TensorFlow/Keras · Model Context Protocol (MCP)
+- **Backend/platform:** Java · TypeScript · Django · Temporal · Kubernetes · AWS · PostgreSQL
+- **Observability/delivery:** Grafana · GitHub Actions
 
 ## Connect
 
