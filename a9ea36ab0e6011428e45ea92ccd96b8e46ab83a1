@@ -1,0 +1,376 @@
+{
+  "version": 2,
+  "schemaVersion": 2,
+  "source": "mantis",
+  "sourceVersion": "0.2.221",
+  "generatedAt": "2026-08-13T19:35:48.310Z",
+  "files": [
+    {
+      "file": "assets/profile-system-mobile.svg",
+      "action": "edited",
+      "linesAffected": 4,
+      "linesAdded": 4,
+      "linesDeleted": 1,
+      "totalLines": 87,
+      "assistant": "codex"
+    },
+    {
+      "file": "assets/profile-system.svg",
+      "action": "edited",
+      "linesAffected": 2,
+      "linesAdded": 2,
+      "linesDeleted": 2,
+      "totalLines": 173,
+      "assistant": "codex"
+    },
+    {
+      "file": "README.md",
+      "action": "edited",
+      "linesAffected": 5,
+      "linesAdded": 1,
+      "linesDeleted": 5,
+      "totalLines": 46,
+      "assistant": "codex"
+    }
+  ],
+  "hunks": [
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:3:assets/profile-system-mobile.svg:codex-patch:all",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "assets/profile-system-mobile.svg",
+      "oldStart": 58,
+      "oldLines": 1,
+      "newStart": 58,
+      "newLines": 4,
+      "linesAdded": 4,
+      "linesDeleted": 1,
+      "attribution": {
+        "bucket": "ai_only",
+        "contributors": [
+          {
+            "actor": "ai",
+            "tool": "codex",
+            "source": "codex-session.patch",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "ai"
+        ],
+        "aiInvolved": true,
+        "humanInvolved": false,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "codex_session",
+        "source": "codex-session.patch",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "370d059a16f17cfb85e976cb192b6ca3be8b10d109c817a626802d3b266fd68f",
+          "73722287f98144f62fb2e571ed30b25ea109ea15b2f18230def9ddbcc41c572d",
+          "003c6d335e36672e45256f37e4a94d530b4fe280f2dfe7ecbe16fe22f7b760ff",
+          "cdf5c43a64a3dd61297a53f7756d7463582cfe46b13d88fcc084854a5fa405cc"
+        ],
+        "deletedLineHashes": [
+          "56f4c9277d23de7f4a3741a9056ca2cf34e66868fab87b8f1fa74638127ae4d4"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "assets/profile-system-mobile.svg",
+        "newPath": "assets/profile-system-mobile.svg",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 1,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 1,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "environment.codex-thread-env",
+        "codexSessionTouchedFile": true,
+        "codexSessionFreshForFile": true,
+        "codexSessionTouchedFileCount": 9,
+        "codexSessionPatchCoverage": true
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:4:assets/profile-system.svg:codex-patch:all",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "assets/profile-system.svg",
+      "oldStart": 118,
+      "oldLines": 2,
+      "newStart": 118,
+      "newLines": 2,
+      "linesAdded": 2,
+      "linesDeleted": 2,
+      "attribution": {
+        "bucket": "ai_only",
+        "contributors": [
+          {
+            "actor": "ai",
+            "tool": "codex",
+            "source": "codex-session.patch",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "ai"
+        ],
+        "aiInvolved": true,
+        "humanInvolved": false,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "codex_session",
+        "source": "codex-session.patch",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "0a278d53be959f2bb224b4c03501a66b0c791af84c9bb1d0d09b3c72868c79d3",
+          "6ec568de5509746fff26a4bd0fb2607fda67bd995f1a799acd0de1b9c5174aa5"
+        ],
+        "deletedLineHashes": [
+          "6c61aaddf5e404d71afed7d53b947b2a7928bd3f5332548af5f1c70042d42d4e",
+          "778a269fb731ba1200a776d2b2e07c1954e86a059d9c2e912a018dbaeb56c2db"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "assets/profile-system.svg",
+        "newPath": "assets/profile-system.svg",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 1,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 1,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "environment.codex-thread-env",
+        "codexSessionTouchedFile": true,
+        "codexSessionFreshForFile": true,
+        "codexSessionTouchedFileCount": 9,
+        "codexSessionPatchCoverage": true
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:1:README.md:codex-patch:all",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 13,
+      "oldLines": 1,
+      "newStart": 13,
+      "newLines": 1,
+      "linesAdded": 1,
+      "linesDeleted": 1,
+      "attribution": {
+        "bucket": "ai_only",
+        "contributors": [
+          {
+            "actor": "ai",
+            "tool": "codex",
+            "source": "codex-session.patch",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "ai"
+        ],
+        "aiInvolved": true,
+        "humanInvolved": false,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "codex_session",
+        "source": "codex-session.patch",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "addedLineHashes": [
+          "41bcd34d68feea3e83e514ec3bd5f653318c035fd907ea03055999ab95be7687"
+        ],
+        "deletedLineHashes": [
+          "9b4ba586cff157a487cb0dafee52d53752d6a542a3c5031414cbe2913f081e17"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 1,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 1,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "environment.codex-thread-env",
+        "codexSessionTouchedFile": true,
+        "codexSessionFreshForFile": true,
+        "codexSessionTouchedFileCount": 9,
+        "codexSessionPatchCoverage": true
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "recordType": "hunk",
+      "hunkId": "staged:2:README.md:codex-patch:all",
+      "operationId": null,
+      "filePath": null,
+      "relativePath": "README.md",
+      "oldStart": 47,
+      "oldLines": 4,
+      "newStart": 46,
+      "newLines": 0,
+      "linesAdded": 0,
+      "linesDeleted": 4,
+      "attribution": {
+        "bucket": "ai_only",
+        "contributors": [
+          {
+            "actor": "ai",
+            "tool": "codex",
+            "source": "codex-session.patch",
+            "operationId": null,
+            "evidenceLevel": "inferred"
+          }
+        ],
+        "actors": [
+          "ai"
+        ],
+        "aiInvolved": true,
+        "humanInvolved": false,
+        "toolInvolved": false,
+        "unknownInvolved": false
+      },
+      "evidence": {
+        "level": "inferred",
+        "kind": "codex_session",
+        "source": "codex-session.patch",
+        "commandId": null,
+        "sessionId": null,
+        "reason": null
+      },
+      "contentHash": null,
+      "metadata": {
+        "deletedLineHashes": [
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "047ac15aa3f9ae45b5336e13f184c7639f0f7fd1500cff0d915f6d7d7d0a5aec",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "1f20c5c68481eb355c6c479e39d81773802e5a73460f89228ca31e8ca3075c75"
+        ],
+        "strategy": "staged-diff-hunk-overlap-v1",
+        "stagedStatus": "M",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "matchedOperationCount": 0,
+        "matchedHunkCount": 1,
+        "matchedOperationIds": [],
+        "matchedHunkIds": [],
+        "matchedInheritedHunkCount": 1,
+        "unattributedFallback": true,
+        "unattributedFallbackSource": "environment.codex-thread-env",
+        "codexSessionTouchedFile": true,
+        "codexSessionFreshForFile": true,
+        "codexSessionTouchedFileCount": 9,
+        "codexSessionPatchCoverage": true
+      }
+    }
+  ],
+  "summary": {
+    "totalHunks": 4,
+    "buckets": {
+      "ai_only": 4,
+      "human_only": 0,
+      "tool_only": 0,
+      "mixed_ai_human": 0,
+      "mixed_ai_tool": 0,
+      "mixed_human_tool": 0,
+      "mixed_ai_human_tool": 0,
+      "unknown": 0
+    },
+    "aiInvolved": 4,
+    "humanInvolved": 0,
+    "toolInvolved": 0,
+    "unknownInvolved": 0,
+    "linesAdded": 7,
+    "linesDeleted": 8
+  },
+  "reconciliation": {
+    "schemaVersion": 2,
+    "strategy": "staged-diff-hunk-overlap-v1",
+    "stagedHunkCount": 4,
+    "matchedHunkCount": 4,
+    "unknownHunkCount": 0,
+    "files": [
+      "README.md",
+      "assets/profile-system-mobile.svg",
+      "assets/profile-system.svg"
+    ],
+    "lineSummaryByBucket": {
+      "ai_only": {
+        "hunks": 4,
+        "linesAdded": 7,
+        "linesDeleted": 8
+      },
+      "human_only": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "tool_only": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "mixed_ai_human": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "mixed_ai_tool": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "mixed_human_tool": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "mixed_ai_human_tool": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      },
+      "unknown": {
+        "hunks": 0,
+        "linesAdded": 0,
+        "linesDeleted": 0
+      }
+    }
+  }
+}
