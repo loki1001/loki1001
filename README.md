@@ -10,7 +10,7 @@ Software engineer at Cisco building AI platform systems across model serving, re
 ## Current engineering focus
 
 - **Model infrastructure:** GPU-backed vLLM serving, Qwen3 embeddings, and LiteLLM/OpenAI-compatible model integrations.
-- **Grounded agent systems:** RAG and MCP retrieval, diagnostic and source-code context, and evidence guardrails.
+- **Grounded agent systems:** RAG and MCP retrieval with diagnostic context; developing direct source-code inspection and evidence guardrails.
 - **Evaluation and reliability:** defect- and code-derived ground truth, deterministic and LLM-as-a-judge scoring, Temporal replay, PostgreSQL/S3 persistence, Grafana observability, and CI-integrated regression testing.
 
 ## Public work & contributions
@@ -44,7 +44,3 @@ Built pantry-aware recipe generation, authenticated recipe storage, and recipe-s
 - **Agents, retrieval, and evaluation:** Python · MCP · RAG · LanceDB · LLM-as-a-judge
 - **Backend and orchestration:** Java · TypeScript · Temporal · PostgreSQL · S3
 - **Platform and operations:** Kubernetes · Helm · Docker · AWS · Grafana · GitHub Actions
-
-## Connect
-
-[LinkedIn](https://www.linkedin.com/in/lokaranjanm/)

@@ -115,8 +115,8 @@
   <text x="884" y="66" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Grounded Agent Systems</text>
   <text x="884" y="85" fill="#a78bfa" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.1">SOURCE + RETRIEVAL</text>
   <text x="824" y="117" fill="#aebdd1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">
-    <tspan x="824" dy="0">MCP/RAG retrieval, source inspection,</tspan>
-    <tspan x="824" dy="22">and evidence guardrails.</tspan>
+    <tspan x="824" dy="0">MCP/RAG retrieval with source context;</tspan>
+    <tspan x="824" dy="22">developing inspection and guardrails.</tspan>
   </text>
 
   <!-- Evaluation and replay -->
